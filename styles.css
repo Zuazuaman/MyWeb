@@ -10,7 +10,20 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f0f0f0; /* Warna latar belakang */
+  background-color: #f0f0f0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo-large {
+  width: 150px;
 }
 
 .content {
@@ -19,13 +32,13 @@ body {
 
 .content h1 {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .content p {
   font-size: 16px;
   color: #666;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .download-button {
@@ -37,6 +50,7 @@ body {
   border-radius: 30px;
   font-size: 18px;
   transition: background-color 0.3s;
+  margin-top: 20px;
 }
 
 .download-button:hover {
